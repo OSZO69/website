@@ -1,36 +1,61 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OSZO</title>
+    <title>My Socials</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .social-links {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        .social-links li {
+            display: inline-block;
+            margin: 10px;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 2px solid #333;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        .social-links a:hover {
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>my socials</h1>
-    </header>
-    <nav>
-        <ul>
-            <h1><a href="https://mastodon.social/@oszo69">mastodon</a></h1>
-            <h1><a href="https://github.com/OSZO69">github</a></h1>
-            <h1><a href="https://twitter.com/ooszerek">twitter/x</a></h1>
-            <h1><a href="https://bsky.app/profile/oszr.bsky.social">bluesky</a></h1>
+    <div class="container">
+        <h1>My Socials</h1>
+        <ul class="social-links">
+            <li><a href="https://oszo69.github.io/softwaredownload/" target="_blank">Software i like</a></li>
+            <li><a href="https://mastodon.social/@oszo69" target="_blank">Mastodon</a></li>
+            <li><a href="https://bsky.app/profile/oszr.bsky.social" target="_blank">Bluesky</a></li>
+            <li><a href="https://github.com/oszo69" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/ooszerek" target="_blank">Twitter</a></li>
         </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>(blank)</h2>
-            <p>(blank)</p>
-        </section>
-        <section>
-            <h2>(blank)</h2>
-            <ul>
-                <p>(blank)</p>
-                <p>(blank)</p>
-                <p>(blank)</p>
-                <p>(blank)</p>
-            </ul>
-        </section>
-    </main>
+    </div>
 </body>
 </html>
