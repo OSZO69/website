@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5f5;
+    background: linear-gradient(90deg, #72B3BC 0%, #9E5E98 100%);
 }
 .container {
     max-width: 800px;
@@ -80,3 +80,10 @@ h1 {
         margin-bottom: 20px; /* Increase vertical margin for mobile devices */
     }
 }
+/* Rectangle 1 */
+
+position: absolute;
+width: 1080px;
+height: 1080px;
+
+background: linear-gradient(255.18deg, #72B3BC 0%, #9E5E98 100%);
